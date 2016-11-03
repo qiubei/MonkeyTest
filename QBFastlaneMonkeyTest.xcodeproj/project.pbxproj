@@ -14,6 +14,7 @@
 		63A3AAFE1DC9DCB400BDE1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A3AAFC1DC9DCB400BDE1F7 /* LaunchScreen.storyboard */; };
 		63A3AB091DC9DCB400BDE1F7 /* QBFastlaneMonkeyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3AB081DC9DCB400BDE1F7 /* QBFastlaneMonkeyTestTests.swift */; };
 		63A3AB141DC9DCB400BDE1F7 /* QBFastlaneMonkeyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3AB131DC9DCB400BDE1F7 /* QBFastlaneMonkeyTestUITests.swift */; };
+		9E95C8B154088A69AA9251DB /* Pods_QBFastlaneMonkeyTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59930D08D86A7E849258B2AA /* Pods_QBFastlaneMonkeyTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B8A8A0ECEE9CF73C62E2096 /* Pods-QBFastlaneMonkeyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBFastlaneMonkeyTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QBFastlaneMonkeyTest/Pods-QBFastlaneMonkeyTest.debug.xcconfig"; sourceTree = "<group>"; };
+		59930D08D86A7E849258B2AA /* Pods_QBFastlaneMonkeyTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QBFastlaneMonkeyTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A3AAF01DC9DCB400BDE1F7 /* QBFastlaneMonkeyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBFastlaneMonkeyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A3AAF31DC9DCB400BDE1F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A3AAF51DC9DCB400BDE1F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		63A3AB0F1DC9DCB400BDE1F7 /* QBFastlaneMonkeyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBFastlaneMonkeyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A3AB131DC9DCB400BDE1F7 /* QBFastlaneMonkeyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QBFastlaneMonkeyTestUITests.swift; sourceTree = "<group>"; };
 		63A3AB151DC9DCB400BDE1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B159FB83C28BF433DD7D660A /* Pods-QBFastlaneMonkeyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBFastlaneMonkeyTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-QBFastlaneMonkeyTest/Pods-QBFastlaneMonkeyTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E95C8B154088A69AA9251DB /* Pods_QBFastlaneMonkeyTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2182854019D365255CAFEB92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B8A8A0ECEE9CF73C62E2096 /* Pods-QBFastlaneMonkeyTest.debug.xcconfig */,
+				B159FB83C28BF433DD7D660A /* Pods-QBFastlaneMonkeyTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4243D41460C4C2FE696E2DF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59930D08D86A7E849258B2AA /* Pods_QBFastlaneMonkeyTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		63A3AAE71DC9DCB400BDE1F7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				63A3AB071DC9DCB400BDE1F7 /* QBFastlaneMonkeyTestTests */,
 				63A3AB121DC9DCB400BDE1F7 /* QBFastlaneMonkeyTestUITests */,
 				63A3AAF11DC9DCB400BDE1F7 /* Products */,
+				2182854019D365255CAFEB92 /* Pods */,
+				4243D41460C4C2FE696E2DF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63A3AB181DC9DCB400BDE1F7 /* Build configuration list for PBXNativeTarget "QBFastlaneMonkeyTest" */;
 			buildPhases = (
+				6CBD1BB90D2840A4A0F72A3A /* [CP] Check Pods Manifest.lock */,
 				63A3AAEC1DC9DCB400BDE1F7 /* Sources */,
 				63A3AAED1DC9DCB400BDE1F7 /* Frameworks */,
 				63A3AAEE1DC9DCB400BDE1F7 /* Resources */,
+				E9BC42FFA4A1C24AFB1E8A93 /* [CP] Embed Pods Frameworks */,
+				29FB320B2D07EA31620DFC14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29FB320B2D07EA31620DFC14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBFastlaneMonkeyTest/Pods-QBFastlaneMonkeyTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBD1BB90D2840A4A0F72A3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BC42FFA4A1C24AFB1E8A93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBFastlaneMonkeyTest/Pods-QBFastlaneMonkeyTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63A3AAEC1DC9DCB400BDE1F7 /* Sources */ = {
@@ -413,6 +488,7 @@
 		};
 		63A3AB191DC9DCB400BDE1F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8A8A0ECEE9CF73C62E2096 /* Pods-QBFastlaneMonkeyTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5EVD5KXKJ4;
@@ -426,6 +502,7 @@
 		};
 		63A3AB1A1DC9DCB400BDE1F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B159FB83C28BF433DD7D660A /* Pods-QBFastlaneMonkeyTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5EVD5KXKJ4;
@@ -514,6 +591,7 @@
 				63A3AB1A1DC9DCB400BDE1F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A3AB1B1DC9DCB400BDE1F7 /* Build configuration list for PBXNativeTarget "QBFastlaneMonkeyTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +600,7 @@
 				63A3AB1D1DC9DCB400BDE1F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A3AB1E1DC9DCB400BDE1F7 /* Build configuration list for PBXNativeTarget "QBFastlaneMonkeyTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +609,7 @@
 				63A3AB201DC9DCB400BDE1F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
