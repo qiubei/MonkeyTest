@@ -76,14 +76,24 @@ class ViewController: UIViewController {
     
     func buttonTest1Action(button: UIButton) {
         print("test 1")
+        
+        let viewcontroller = UIViewController()
+        viewcontroller.view.backgroundColor = UIColor.blue
+        self.navigationController?.pushViewController(viewcontroller, animated: true)
     }
     
     func buttontest2Action(button: UIButton) {
         print("test 2")
+        let viewcontroller = UIViewController()
+        viewcontroller.view.backgroundColor = UIColor.red
+        self.navigationController?.pushViewController(viewcontroller, animated: true)
     }
     
     func buttontest3Action(button: UIButton) {
         print("test 3")
+        let viewcontroller = UIViewController()
+        viewcontroller.view.backgroundColor = UIColor.green
+        self.navigationController?.pushViewController(viewcontroller, animated: true)
     }
 
 }
