@@ -3,22 +3,22 @@
   <testsuite name="fastlane.lanes">
     
       
-      <testcase classname="fastlane.lanes" name="0: Switch to unit_test lane" time="0.000583">
+      <testcase classname="fastlane.lanes" name="0: Switch to unit_test lane" time="0.000629">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: git_add" time="0.010295">
+      <testcase classname="fastlane.lanes" name="1: git_add" time="0.010951">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.023061">
+      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.024968">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: ensure_git_status_clean" time="0.009126">
+      <testcase classname="fastlane.lanes" name="3: ensure_git_status_clean" time="0.009709">
         
       </testcase>
     
