@@ -6,10 +6,6 @@ lane :unit_test do
 	code_coverage: true,
 	fail_build: false
 	)
-
-	system("pwd")
-	git_add(path: ".")
-	git_commit(path: ".", message: "\"test result files\"")	
 end
 
 lane :do_monkey_test do
@@ -21,7 +17,7 @@ end
 
 lane :test do
 	unit_test
-	# do_monkey_test
+	do_monkey_test
 end
 
 
