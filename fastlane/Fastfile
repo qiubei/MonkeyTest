@@ -7,11 +7,14 @@ lane :unit_test do
 	# fail_build: false
 	# )
 
+	system("pwd")
 	git_add(path:".")
 	git_commit(path:"." ,message: "test result files")	
 end
 
 lane :do_monkey_test do
+	ensure_git_status_clean
+
   	git_pull
   	cocoapods
  	 xcodebuild(scheme:QBFastlaneMonkeyTest)
