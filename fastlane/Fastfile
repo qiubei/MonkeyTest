@@ -21,7 +21,7 @@ end
 
 lane :test do
 	unit_test
-	do_monkey_test
+	# do_monkey_test
 end
 
 
