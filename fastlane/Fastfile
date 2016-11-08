@@ -2,10 +2,13 @@ desc "UI monkey test"
 
 
 lane :unit_test do
-	scan(scheme: "QBFastlaneMonkeyTest",
-	code_coverage: true,
-	fail_build: false
-	)	
+	# bscan(scheme: "QBFastlaneMonkeyTest",
+	# code_coverage: true,
+	# fail_build: false
+	# )
+
+	git_add(path:".")
+	git_commit(path:"." ,message: "test result files")	
 end
 
 lane :do_monkey_test do

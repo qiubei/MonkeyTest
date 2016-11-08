@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='QBFastlaneMonkeyTestTests.xctest' tests='3' failures='0'>
   <testsuite name='QBFastlaneMonkeyTestUITests.QBFastlaneMonkeyTestUITests' tests='1' failures='0'>
-    <testcase classname='QBFastlaneMonkeyTestUITests.QBFastlaneMonkeyTestUITests' name='testExample' time='5.721'/>
+    <testcase classname='QBFastlaneMonkeyTestUITests.QBFastlaneMonkeyTestUITests' name='testExample' time='5.696'/>
   </testsuite>
   <testsuite name='QBFastlaneMonkeyTestTests.QBFastlaneMonkeyTestTests' tests='2' failures='0'>
-    <testcase classname='QBFastlaneMonkeyTestTests.QBFastlaneMonkeyTestTests' name='testExample' time='0.001'/>
-    <testcase classname='QBFastlaneMonkeyTestTests.QBFastlaneMonkeyTestTests' name='testPerformanceExample' time='0.346'/>
+    <testcase classname='QBFastlaneMonkeyTestTests.QBFastlaneMonkeyTestTests' name='testExample' time='0.002'/>
+    <testcase classname='QBFastlaneMonkeyTestTests.QBFastlaneMonkeyTestTests' name='testPerformanceExample' time='0.274'/>
   </testsuite>
 </testsuites>
