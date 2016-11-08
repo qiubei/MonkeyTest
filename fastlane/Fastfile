@@ -2,27 +2,26 @@ desc "UI monkey test"
 
 
 lane :unit_test do
-	# bscan(scheme: "QBFastlaneMonkeyTest",
-	# code_coverage: true,
-	# fail_build: false
-	# )
+	scan(scheme: "QBFastlaneMonkeyTest",
+	code_coverage: true,
+	fail_build: false
+	)
 
 	system("pwd")
-	git_add(path:".")
-	git_commit(path:"." ,message: "\"test result files\"")	
+	git_add(path: ".")
+	git_commit(path: ".", message: "\"test result files\"")	
 end
 
 lane :do_monkey_test do
 
   	git_pull
   	cocoapods
- 	 xcodebuild(scheme:QBFastlaneMonkeyTest)
+ 	xcodebuild(scheme:QBFastlaneMonkeyTest)
 end
 
 lane :test do
 	unit_test
-	ensure_git_status_clean
-	# do_monkey_test
+	do_monkey_test
 end
 
 
