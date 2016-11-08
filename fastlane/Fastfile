@@ -9,7 +9,7 @@ lane :unit_test do
 
 	system("pwd")
 	git_add(path:".")
-	git_commit(path:"." ,message: "test result files")	
+	git_commit(path:"." ,message: "\"test result files\"")	
 end
 
 lane :do_monkey_test do
