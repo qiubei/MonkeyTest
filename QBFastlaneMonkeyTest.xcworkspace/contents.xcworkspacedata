@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:QBFastlaneMonkeyTest.xcodeproj">
+      location = "group:/Users/Jarvis/Desktop/QBTest/QBFastlaneMonkeyTest/QBFastlaneMonkeyTest.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
