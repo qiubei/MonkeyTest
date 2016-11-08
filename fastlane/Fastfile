@@ -22,7 +22,8 @@ end
 lane :test do
 	unit_test
 	ensure_git_status_clean
-	do_monkey_test
+	git_status
+	# do_monkey_test
 end
 
 
