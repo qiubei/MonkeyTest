@@ -13,7 +13,6 @@ lane :unit_test do
 end
 
 lane :do_monkey_test do
-	ensure_git_status_clean
 
   	git_pull
   	cocoapods
@@ -22,7 +21,7 @@ end
 
 lane :test do
 	unit_test
-
+	ensure_git_status_clean
 	do_monkey_test
 end
 
