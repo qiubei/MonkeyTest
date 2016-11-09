@@ -1,6 +1,4 @@
 desc "UI monkey test"
-
-
 lane :unit_test do
 	scan(scheme: "QBFastlaneMonkeyTest",
 	code_coverage: true,
@@ -8,17 +6,21 @@ lane :unit_test do
 	)
 end
 
-lane :do_monkey_test do
+lane :do_build_test do
 
-  	git_pull
+  	system("git pull origin master")
   	cocoapods
- 	xcodebuild(scheme:QBFastlaneMonkeyTest)
+ 	gym(scheme: "QBFastlaneMonkeyTest",
+ 		export_method: "ad-hoc",
+ 		output_directory: "./build"
+ 	)
+ 	end
+
+lane :notification_test do 
+	system("curl https://hooks.pubu.im/services/xm2p37x2y6zni82 -F  text=UnitTest ")
 end
 
 lane :test do
 	unit_test
-	do_monkey_test
+	# do_build_test
 end
-
-
-

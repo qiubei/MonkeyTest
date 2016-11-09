@@ -10,9 +10,14 @@ sudo gem install fastlane
 fastlane unit_test
 ```
 UI monkey test
-### do_monkey_test
+### do_build_test
 ```
-fastlane do_monkey_test
+fastlane do_build_test
+```
+
+### notification_test
+```
+fastlane notification_test
 ```
 
 ### test
