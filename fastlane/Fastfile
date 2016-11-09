@@ -22,5 +22,6 @@ end
 
 lane :test do
 	unit_test
+	
 	# do_build_test
 end
