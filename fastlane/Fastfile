@@ -1,9 +1,15 @@
 desc "UI monkey test"
 lane :unit_test do
-	scan(scheme: "QBFastlaneMonkeyTest",
+	flag = scan(scheme: "QBFastlaneMonkeyTest",
 	code_coverage: true,
-	fail_build: false
+	fail_build: "Test failed"
 	)
+
+	if flag 
+		notification_test
+	else 
+		system("curl https://hooks.pubu.im/services/xm2p37x2y6zni82 -F  text=UnitTest Failed")
+	end
 end
 
 lane :do_build_test do
@@ -22,5 +28,6 @@ end
 
 lane :test do
 	unit_test
-	# do_build_test
+	notification_test
+	do_build_test
 end

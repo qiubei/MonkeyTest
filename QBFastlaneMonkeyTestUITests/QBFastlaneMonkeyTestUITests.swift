@@ -33,7 +33,7 @@ class QBFastlaneMonkeyTestUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results……
         
         XCTAssert(true, "this is UI Test")
-//        XCTFail("manual failure")
+        XCTFail("manual failure")
         
     }
     
