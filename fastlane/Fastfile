@@ -12,6 +12,11 @@ lane :unit_test do
 	end
 end
 
+lane :ui_test do
+	scan(scheme: "MyUITest")
+end
+
+
 lane :do_build_test do
 
   	system("git pull origin master")
@@ -30,4 +35,8 @@ lane :test do
 	unit_test
 	notification_test
 	do_build_test
+end
+
+lane :screenshot do 
+	snapshot
 end
