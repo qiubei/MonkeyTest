@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED7B855B2E53F539DD3FA9E4AED17627"
+               BlueprintIdentifier = "C4576F902910FD737AE2C01117C0B82C"
                BuildableName = "DynamicColor.framework"
                BlueprintName = "DynamicColor"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -42,9 +42,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "90E14F0405A42C69B9E625368255FA3B"
+               BlueprintIdentifier = "5FD2D805B83859B95542CBA0024FA31A"
                BuildableName = "Pods_QBFastlaneMonkeyTest.framework"
                BlueprintName = "Pods-QBFastlaneMonkeyTest"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "727DD0CF5BB23071A6AAF0B8D4E4B178"
+               BuildableName = "NaptimeDevice.framework"
+               BlueprintName = "NaptimeDevice"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3CF21E565076E552918F7C73A6D8570F"
+               BuildableName = "SnapKit.framework"
+               BlueprintName = "SnapKit"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
