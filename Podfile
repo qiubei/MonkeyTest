@@ -6,7 +6,7 @@ def uicomponent
 end
 
 def utility
-  pod 'SnapKit' , '~> 3.0.0'
+#  pod 'SnapKit' , '~> 3.0.0'pod 
 end
 
 target 'QBFastlaneMonkeyTest' do
