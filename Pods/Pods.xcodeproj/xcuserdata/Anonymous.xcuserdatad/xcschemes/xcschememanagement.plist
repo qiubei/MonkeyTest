@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>NaptimeDevice.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-QBFastlaneMonkeyTest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SnapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,7 +27,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>89BCA1889B67A7C5DA40F2A310EF6973</key>
+		<key>3CF21E565076E552918F7C73A6D8570F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5FD2D805B83859B95542CBA0024FA31A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>727DD0CF5BB23071A6AAF0B8D4E4B178</key>
 		<dict>
 			<key>primary</key>
 			<true/>

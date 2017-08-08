@@ -1,0 +1,23 @@
+{
+  "name": "NaptimeDevice",
+  "version": "2.0.0-beta",
+  "summary": "Naptime 硬件连接库",
+  "description": "Naptime 硬件连接库, 兼容 1.0 和 2.0 眼罩。",
+  "license": "private",
+  "homepage": "https://github.com/entertech",
+  "authors": "entertech",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/EnterTech/Naptime-Device.git",
+    "tag": "2.0.0-beta"
+  },
+  "source_files": "Classes/**/*",
+  "libraries": "c++",
+  "xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "gnu++11",
+    "CLANG_CXX_LIBRARY": "libc++"
+  },
+  "frameworks": "Foundation"
+}

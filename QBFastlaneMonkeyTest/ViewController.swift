@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NaptimeDevice
 import SnapKit
 
 

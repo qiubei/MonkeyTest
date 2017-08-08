@@ -1,0 +1,6 @@
+framework module NaptimeDevice {
+  umbrella header "NaptimeDevice-umbrella.h"
+
+  export *
+  module * { export * }
+}

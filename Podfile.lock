@@ -1,12 +1,28 @@
 PODS:
   - DynamicColor (3.0.0)
+  - NaptimeDevice (2.0.0-beta)
+  - SnapKit (3.0.2)
 
 DEPENDENCIES:
   - DynamicColor (~> 3.0.0)
+  - NaptimeDevice (from `https://github.com/qiubei/Naptime-Device-iOS.git`, branch `master`)
+  - SnapKit (~> 3.0.0)
+
+EXTERNAL SOURCES:
+  NaptimeDevice:
+    :branch: master
+    :git: https://github.com/qiubei/Naptime-Device-iOS.git
+
+CHECKOUT OPTIONS:
+  NaptimeDevice:
+    :commit: ce6d91f57aee3702e84d98957f3fa3da4009f947
+    :git: https://github.com/qiubei/Naptime-Device-iOS.git
 
 SPEC CHECKSUMS:
   DynamicColor: d8c2190554668efe9ad1166045afd8623fbd78e1
+  NaptimeDevice: 961c16d749a93340d86e7a2dbc4daa66bed46e72
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
 
-PODFILE CHECKSUM: d87e0143440c8553b9171dc335f7568728270294
+PODFILE CHECKSUM: 40ec396b73118025d63d737aa36eca2d66e02f23
 
 COCOAPODS: 1.2.1

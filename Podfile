@@ -6,10 +6,15 @@ def uicomponent
 end
 
 def utility
-#  pod 'SnapKit' , '~> 3.0.0'pod 
+  pod 'SnapKit' , '~> 3.0.0'
+end
+
+def personal
+    pod 'NaptimeDevice', :git => 'https://github.com/qiubei/Naptime-Device-iOS.git', :branch => 'master'
 end
 
 target 'QBFastlaneMonkeyTest' do
   utility 
   uicomponent
+  personal
 end
