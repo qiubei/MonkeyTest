@@ -1,3 +1,5 @@
+source 'git@github.com:EnterTech/PodSpecs.git'
+
 platform :ios ,'8.0'
 use_frameworks!
 
