@@ -96,7 +96,7 @@ class ViewController: UIViewController {
         let button = UIButton()
         button.center = viewcontroller.view.center
         viewcontroller.view.addSubview(button)
-        viewcontroller.view.backgroundColor = UIColor.green
+        viewcontroller.view.backgroundColor = UIColor.purple
         self.navigationController?.pushViewController(viewcontroller, animated: true)
     }
 
