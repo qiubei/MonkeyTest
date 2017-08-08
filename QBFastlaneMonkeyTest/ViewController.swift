@@ -86,7 +86,7 @@ class ViewController: UIViewController {
     func buttontest2Action(button: UIButton) {
         print("test 2")
         let viewcontroller = UIViewController()
-        viewcontroller.view.backgroundColor = UIColor.red
+        viewcontroller.view.backgroundColor = UIColor.yellow
         self.navigationController?.pushViewController(viewcontroller, animated: true)
     }
     

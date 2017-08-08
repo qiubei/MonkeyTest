@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:QBFastlaneMonkeyTest.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:QBFastlaneMonkeyTest.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
