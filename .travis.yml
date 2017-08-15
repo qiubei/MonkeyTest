@@ -9,4 +9,4 @@ before_install:
   - gem install fastlane
 
 install:
-  - fastlane ui_testi
+  - fastlane ui_test
