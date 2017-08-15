@@ -2,5 +2,9 @@ language: swift
 xcode_workspace: QBFastlaneMonkeyTest.xcworkspace
 cache: 
   - cocoapods
+
+before_install:
+  - 
+
 install:
   - fastlane ui_test
