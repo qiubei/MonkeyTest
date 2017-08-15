@@ -4,7 +4,8 @@ cache:
   - cocoapods
 
 before_install:
-  - 
+  - rvm use 2.4.0
+  - gem install fastlane
 
 install:
-  - fastlane ui_test
+  - fastlane ui_testi
